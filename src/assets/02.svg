@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <rect x="60.9272" y="186.6289" width="589.3883" height="331.638" rx="32" ry="32" fill="#a7cee1"/>
+  <rect x="671.7505" y="186.6289" width="589.3883" height="331.638" rx="32" ry="32" fill="#a7cee1"/>
+  <rect x="1282.0522" y="186.6289" width="589.3883" height="331.638" rx="32" ry="32" fill="#a7cee1"/>
+  <rect x="60.9272" y="543.4154" width="589.3883" height="331.638" rx="32" ry="32" fill="#a7cee1"/>
+  <rect x="673.123" y="543.4154" width="589.3883" height="331.638" rx="32" ry="32" fill="#a7cee1"/>
+  <rect x="1282.0522" y="543.4154" width="589.3883" height="331.638" rx="32" ry="32" fill="#a7cee1"/>
+  <g>
+    <circle cx="355.5055" cy="354.4686" r="17.196" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+    <circle cx="358.5763" cy="337.5302" r="4.299" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+    <circle cx="368.6342" cy="343.414" r="4.299" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+  </g>
+  <g>
+    <circle cx="1576.0221" cy="362.2742" r="85.9802" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+    <circle cx="1590.7615" cy="278.1364" r="21.4951" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+    <circle cx="1641.9558" cy="306.6942" r="21.4951" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+  </g>
+  <g>
+    <circle cx="354.7001" cy="721.5173" r="105.6328" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+    <circle cx="373.0615" cy="617.7269" r="26.4082" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+    <circle cx="435.7672" cy="653.9614" r="26.4082" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+  </g>
+  <g>
+    <circle cx="966.9046" cy="722.7609" r="115.4592" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+    <circle cx="986.6671" cy="609.1137" r="28.8648" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+    <circle cx="1055.324" cy="648.284" r="28.8648" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+  </g>
+  <g>
+    <circle cx="1575.5506" cy="724.5881" r="130.1986" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+    <circle cx="1597.6598" cy="596.2319" r="32.5497" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+    <circle cx="1675.5911" cy="641.1441" r="32.5497" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+  </g>
+  <g>
+    <circle cx="966.0746" cy="357.9752" r="46.675" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+    <circle cx="974.1683" cy="311.9144" r="11.6687" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+    <circle cx="1001.8209" cy="327.8821" r="11.6687" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+@use './variables.scss';
+
+.app {
+  min-height: 100vh;
+}
+
+.main-page {
+  width: 100%;
+}
+
+.canvas-section {
+  width: 100%;
+  padding: 2rem;
+}
