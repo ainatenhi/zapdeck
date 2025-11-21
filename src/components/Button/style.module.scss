@@ -1,6 +1,6 @@
 .button {
-  height: 44px;
-  padding: 10px 20px;
+  height: var(--btn-height-md);
+  padding: var(--spacing-2) var(--spacing-5);
   font-size: var(--font-size-base);
   font-weight: 600;
   color: var(--color-common-white);
