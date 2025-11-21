@@ -5,6 +5,8 @@ import { PointProps } from '@/types/point';
 // components
 
 import { Label } from '@/components/Label';
+import { LabelBackground } from '@/components/LabelBackground';
+import { PointMarker } from '@/components/PointMarker';
 
 // constants
 
@@ -14,12 +16,7 @@ import {
   RECT_WIDTH,
   RECT_HEIGHT,
   RECT_GAP,
-  RECT_BORDER_RADIUS,
 } from '@/constants/canvas';
-
-// styles
-
-import styles from './style.module.scss';
 
 export const Point = ({
   index,
@@ -39,34 +36,8 @@ export const Point = ({
 
   return (
     <g>
-      <rect
-        fill="var(--color-common-white)"
-        height={RECT_HEIGHT}
-        rx={RECT_BORDER_RADIUS}
-        ry={RECT_BORDER_RADIUS}
-        stroke="none"
-        width={RECT_WIDTH}
-        x={rectX}
-        y={rectY}
-      />
-      <circle
-        cx={x}
-        cy={y}
-        fill="var(--color-primary)"
-        r={SMALL_CIRCLE_RADIUS}
-        stroke="none"
-      />
-      <text
-        dominantBaseline="central"
-        fill="var(--color-common-white)"
-        fontWeight="500"
-        className={styles.pointNumber}
-        textAnchor="middle"
-        x={x}
-        y={y}
-      >
-        {index + 1}
-      </text>
+      <PointMarker index={index} x={x} y={y} />
+      <LabelBackground x={rectX} y={rectY} />
       <Label
         x={rectX}
         y={rectY}
