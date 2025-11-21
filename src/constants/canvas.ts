@@ -1,0 +1,14 @@
+export const CANVAS_WIDTH = 1920;
+export const CANVAS_HEIGHT = 1080;
+export const CIRCLE_DIAMETER = 688;
+export const CIRCLE_RADIUS = CIRCLE_DIAMETER / 2;
+export const CENTER_X = CANVAS_WIDTH / 2;
+export const CENTER_Y = CANVAS_HEIGHT / 2;
+export const SMALL_CIRCLE_RADIUS = CIRCLE_DIAMETER / 4 / 2;
+export const SMALL_CIRCLE_DIAMETER = SMALL_CIRCLE_RADIUS * 2;
+export const RECT_WIDTH = SMALL_CIRCLE_DIAMETER * 2;
+export const RECT_HEIGHT = SMALL_CIRCLE_DIAMETER / 2;
+export const RECT_PADDING = 20;
+export const RECT_GAP = 16;
+export const MAX_POINTS = 9;
+export const RECT_BORDER_RADIUS = 16;
