@@ -2,6 +2,10 @@
 
 import { PointProps } from '@/types/point';
 
+// components
+
+import { Label } from '@/components/Label';
+
 // constants
 
 import {
@@ -63,20 +67,14 @@ export const Point = ({
       >
         {index + 1}
       </text>
-      <foreignObject
+      <Label
         x={rectX}
         y={rectY}
         width={RECT_WIDTH}
         height={RECT_HEIGHT}
-      >
-        <div
-          className={`${styles.textContainer} ${
-            isRightHalf ? styles.textLeft : styles.textRight
-          }`}
-        >
-          {text}
-        </div>
-      </foreignObject>
+        text={text}
+        isRightHalf={isRightHalf}
+      />
     </g>
   );
 };
